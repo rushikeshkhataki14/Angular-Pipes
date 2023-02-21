@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-pipes';
+  today = new Date;
+  Fruits = ["Apple","Orange","Grapes","Mango","Kiwi","Pomegranate"];
+  car = {name: "aniket",lastname: "kamble", mobi_no: "2345153"}
 }
+
